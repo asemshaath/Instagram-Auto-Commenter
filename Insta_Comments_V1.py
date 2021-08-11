@@ -18,7 +18,7 @@ bot = Bot
 
 # https://www.instagram.com/web/search/topsearch/?context=blended&query=web  searchs in profiles 'web'
 
-system('title WELCOME TO INSTA COMMENTS BY @A7.ACC')
+system('title WELCOME TO INSTA COMMENTS')
 accounts = dict()
 sessions = []
 cook = []
@@ -359,7 +359,7 @@ def scrape_posts():
                     sleep(5)
 
             else:
-                hashtags_and_profiles = input(f'\n{ques} Enter the hashtags and the profiles that you want to scrape seperating them with a space like this >> @instagram #ok #hashtag @a7.acc  >>> ')
+                hashtags_and_profiles = input(f'\n{ques} Enter the hashtags and the profiles that you want to scrape seperating them with a space like this >> @instagram #ok #hashtag @cnn  >>> ')
             hashtags_and_profiles = hashtags_and_profiles.split(' ')
             if ans == 4:
                 hashtags_and_profiles = hashtags_and_profiles[:-1]
